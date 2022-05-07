@@ -1,6 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+- name: Build and deploy to GitHub Pages
+  uses: EdricChan03/action-build-deploy-ghpages@v2.6.0
 
 # Controls when the workflow will run
 on:
